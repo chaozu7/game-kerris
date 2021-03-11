@@ -1,0 +1,196 @@
+/*
+Theme Name: Game
+Theme URI: https://xx
+Author: Kamila Nawrocka
+Description: Zadanie rekrutacyjne
+Version: 1.0
+*/
+/*mixin */
+/* 
+0 - 600px; 600-900 px; 900-1200px; 1800+; 
+1200-1800 normal styles
+
+$breakpoint argument choices:
+-phone
+-tab-port
+-tab-land
+-big-dsc
+
+1em = 16px
+*/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url("../fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Poppins-bold';
+  src: url("../fonts/Poppins-SemiBold.ttf");
+}
+
+html {
+  font-size: 62.5%;
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 56.25em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (min-width: 112.5em) {
+  html {
+    font-size: 75%;
+  }
+}
+
+body {
+  font-family: 'Poppins';
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+header .bcg__lines {
+  position: absolute;
+  top: 24.0rem;
+  left: 45%;
+}
+
+header .bcg__circles {
+  position: absolute;
+  top: 49.3rem;
+  left: 45%;
+}
+
+.header-left {
+  width: 50%;
+}
+
+.header-left .logo {
+  max-width: 21.8rem;
+  margin: 1.6rem 3.75rem 1.6rem 3.67rem;
+}
+
+.header-left .logo img {
+  width: 100%;
+}
+
+.header-left__boxes {
+  padding-left: 27.5rem;
+  padding-right: 16rem;
+  background-color: #FFC625;
+}
+
+.header-left__boxes .title h1 {
+  font-family: 'Poppins';
+  font-size: 6rem;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 8.3rem;
+  margin-bottom: 4.6rem;
+}
+
+.header-left__boxes .title p {
+  font-size: 1.4rem;
+  letter-spacing: 0;
+  text-align: left;
+  line-height: 2.5rem;
+  margin-bottom: 9.2rem;
+  color: #090000;
+}
+
+.header-left__boxes .title p span {
+  font-family: 'Poppins-bold';
+  color: #091E2B;
+  font-weight: 600;
+}
+
+.header-left__boxes .title button {
+  position: relative;
+  font-family: 'Poppins-bold';
+  max-width: 34.7rem;
+  width: 100%;
+  background-color: #6C7DE3;
+  color: #fff;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.header-left__boxes .title button img {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  position: absolute;
+  top: 1.9rem;
+  left: 6.9rem;
+}
+
+.headlines {
+  margin-top: 4.6rem;
+  padding-left: 27.5rem;
+}
+
+.headlines h2 {
+  color: #231F20;
+  font-size: 6rem;
+  letter-spacing: 0;
+  line-height: 8.3rem;
+}
+
+.headlines img {
+  max-width: 3.9rem;
+  max-height: 3.9rem;
+  width: 100%;
+}
+
+.header-right {
+  width: 50%;
+  background-image: url("../assets/photo.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.features__block {
+  width: 50%;
+}
+
+.features__block-head {
+  text-align: right;
+}
+
+.features__block-head .block-head__title {
+  text-align: left;
+}
+
+.features__block-head .block-head__title img {
+  position: relative;
+}
+/*# sourceMappingURL=style.css.map */
