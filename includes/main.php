@@ -1,16 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="scss/style.css">
-    <title>lorem-ipsum</title>
-</head>
-
 <body>
-    <header>
+<header>
         <div class="logo">
             <div class="logo__box">
                 <img src="assets/logo.svg" alt="logo" title="logo">
@@ -87,15 +76,3 @@
             </div>
         </section>
     </main>
-    <footer class="footer">
-        <div class="copy">
-            <p>Copyrights © 2019 by Kerris Group.
-                All rights reserved.</p>
-        </div>
-        <div class="footer__image">
-            <img src="assets/ovals.svg">
-        </div>
-    </footer>
-</body>
-
-</html>

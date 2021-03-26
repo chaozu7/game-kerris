@@ -1,48 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/scss/style.css">
+    <title>lorem-ipsum</title>
+</head>
+
 <body>
     <header>
-        <section class="hader-left">
-            <div class="logo">
-                <div class="logo__box">
-                    <img src="assets/logo.svg" alt="logo">
-                </div>
+        <div class="logo">
+            <div class="logo__box">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/logo.svg" alt="logo" title="logo">
             </div>
-            <div class="title">
-                <h1>
-                    Lorem ipsum dolor sit amet
-                </h1>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-                    nostrud exercitation ullamco.
-                </p>
-                <button>
-                    Learn more
-                </button>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="header-left">
+            <div class="header-left__boxes">
+                <div class="header-left__text">
+                    <div class="title">
+                        <h1>
+                            Lorem ipsum dolor sit amet
+                        </h1>
+                        <p>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</span>
+                            Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis
+                            nostrud exercitation ullamco.
+                        </p>
+                        <button>
+                            Learn more
+                            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/arrow.svg">
+                        </button>
 
+                    </div>
+                </div>
             </div>
             <div class="headlines">
-                <h2> How it works?</h2>
-                <img src="assets/yellow_dot.svg">
+                <div class="header-left__text">
+                    <h2> How it works?</h2>
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/yellow_dot.svg">
+                </div>
             </div>
-        </section>
-        <section class="header-right">
+        </div>
+
+        <div class="header-right">
             <div class="bcg">
-                <div class="bcg__lines">
-                    <img src="assets/lines.svg">
-                </div>
-                <div class="bcg__circles">
-                    <img src="assets/ovals.svg">
-                </div>
+
             </div>
-        </section>
-    </header>
+        </div>
+    </section>
+    <div class="bcg__lines">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/lines.svg">
+    </div>
+    <div class="bcg__circles">
+        <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/ovals.svg">
+    </div>
+
     <main>
         <section class="features">
             <div class="features__block">
                 <div class="features__block-head">
-                    <img src="assets/block.svg">
-                    <img src="assets/head_1.svg">
-                    <h3>Block the cheaters</h3>
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/block.svg">
+                    <div class="block-head__title block-head__title--1">
+                        <h3>Block the cheaters</h3>
+                    </div>
                 </div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -50,9 +75,10 @@
             </div>
             <div class="features__block">
                 <div class="features__block-head">
-                    <img src="assets/find.svg">
-                    <img src="assets/head_2.svg">
-                    <h3>Block the cheaters</h3>
+                    <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/find.svg">
+                    <div class="block-head__title block-head__title--2">
+                        <h3>Block the cheaters</h3>
+                    </div>
                 </div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -61,4 +87,15 @@
             </div>
         </section>
     </main>
+    <footer class="footer">
+        <div class="copy">
+            <p>Copyrights © 2019 by Kerris Group.
+                All rights reserved.</p>
+        </div>
+        <div class="footer__image">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/ovals.svg">
+        </div>
+    </footer>
 </body>
+
+</html>
